@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.gephi</groupId>
+    <artifactId>toolkit-demos</artifactId>
+    <version>0.9.1</version>
+    <packaging>jar</packaging>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>netbeans</id>
+            <name>NetBeans</name>
+            <url>http://bits.netbeans.org/maven2/</url>
+        </repository>
+        <repository>
+            <id>oss-sonatype</id>
+            <name>oss-sonatype</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.gephi</groupId>
+            <artifactId>gephi-toolkit</artifactId>
+            <version>0.9.1</version>
+        </dependency>
+    </dependencies>
+	
+	
+	<build>
+		<finalName>gephi_demo</finalName>
+		<plugins>
+			<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-assembly-plugin</artifactId>
+							<version>2.4.1</version>
+							<configuration>
+								<!-- get all project dependencies -->
+								<descriptorRefs>
+									<descriptorRef>jar-with-dependencies</descriptorRef>
+								</descriptorRefs>
+								<!-- MainClass in mainfest make a executable jar -->
+								<archive>
+								  <manifest>
+									<mainClass>org.gephi.toolkit.demos.Main</mainClass>
+								  </manifest>
+								</archive>
+							</configuration>
+							<executions>
+							  <execution>
+								<id>make-assembly</id>
+			                                        <!-- bind to the packaging phase -->
+								<phase>package</phase> 
+								<goals>
+									<goal>single</goal>
+								</goals>
+							  </execution>
+							</executions>
+				</plugin>
+		</plugins>
+	</build>
+
+</project>
