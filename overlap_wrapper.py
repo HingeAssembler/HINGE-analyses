@@ -9,6 +9,9 @@ base_path = 'data/'
 file_list = np.loadtxt('NCTC_names.txt',dtype='str')
 
 num_proc = 1
+if len(sys.argv) > 1:
+    num_proc = sys.argv[1]
+
 
 def run_pipeline(flname):
     base_dir = base_path + flname + '/'
