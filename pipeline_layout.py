@@ -41,8 +41,8 @@ if st_point <= 3:
 
     json_flname = bact_id+'.mapping.4.json'
     print json_flname
-    if os.path.isfile(json_flname) and os.stat(json_flname).st_size > 0:
-        pruning_cmd = "python "+path_to_hinge+"scripts/pruning_and_clipping.py "+bact_name+".edges.hinges "+bact_name+".hinge.list falcon "+ json_flname
+    if os.path.isfile(base_path+json_flname) and os.stat(base_path+json_flname).st_size > 0:
+        pruning_cmd = "python "+path_to_hinge+"scripts/pruning_and_clipping.py "+bact_name+".edges.hinges "+bact_name+".hinge.list A "+ json_flname
     else:
         pruning_cmd = "python "+path_to_hinge+"scripts/pruning_and_clipping.py "+bact_name+".edges.hinges "+bact_name+".hinge.list A"
     print pruning_cmd
