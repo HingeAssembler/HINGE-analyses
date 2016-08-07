@@ -5,10 +5,11 @@ Stuff needed to be installed
 
 ```
 build-essential
-libhdf5
 libhdf5-dev
 libboost-all-dev
 cmake-3.2
+g++-4.9
+gcc-4.9
 ```
 
 
