@@ -1,0 +1,3 @@
+[submodule "HINGE"]
+	path = HINGE
+	url = https://github.com/fxia22/HINGE.git
