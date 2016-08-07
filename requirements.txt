@@ -1,0 +1,12 @@
+numpy
+scipy
+ujson
+cython
+forceatlas2
+networkx
+matplotlib
+biopython
+bcbio-gff
+bcbio-nextgen
+colormap
+easydev
