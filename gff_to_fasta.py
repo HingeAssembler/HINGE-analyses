@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from BCBio import GFF
 from pbcore.io import FastaIO
 import sys
