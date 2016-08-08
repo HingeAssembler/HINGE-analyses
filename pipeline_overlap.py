@@ -44,7 +44,7 @@ if st_point <= 3:
         subprocess.call("rm -f *.las",shell=True,cwd=base_path)
 	daligner_cmd = "HPCdaligner -M500 "+bact_name
 	#daligner_cmd = "HPCdaligner -t5 "+bact_name
-        daligner_shell_cmd = "csh -v daligner_cmd.sh"
+        daligner_shell_cmd = "bash -v daligner_cmd.sh"
 	print daligner_cmd
 	p = subprocess.call(daligner_cmd.split(),stdout=open(base_path+'daligner_cmd.sh','w') , cwd=base_path)
         p2 = subprocess.check_output(daligner_shell_cmd.split(), cwd=base_path)
