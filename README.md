@@ -1,5 +1,5 @@
 # HINGE-analyses
-Analysis accompanying  "HINGE: Long-Read Assembly Achieves Optimal Repeat Resolution" http://biorxiv.org/content/early/2016/08/01/062117
+Analysis accompanying  "HINGE: Long-Read Assembly Achieves Optimal Repeat Resolution" http://biorxiv.org/content/early/2016/07/05/062117
 
 
 This repository provides an analysis pipeline that reproduces the main results in the paper step-by-step.
@@ -33,8 +33,8 @@ source setup.sh
 # Optionally you can create a python virtual environment and then install the requirements
 pip install -r requirements.txt 
 ```
-
-We require the following python packages. All of can be installed with `sudo pip install <package>`, with exception of forceatlas2, which should be downloaded and installed from [here](https://pypi.python.org/pypi/ForceAtlas2/1.0) for better performance.
+.
+The python packages installed by the last line are the following. All of can be installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled
 
 ```
 numpy
