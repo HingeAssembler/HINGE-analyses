@@ -1,5 +1,5 @@
 # HINGE-analyses
-Analysis accompanying  "HINGE: Long-Read Assembly Achieves Optimal Repeat Resolution" http://biorxiv.org/content/early/2016/07/05/062117
+Analysis accompanying  "HINGE: Long-Read Assembly Achieves Optimal Repeat Resolution" http://biorxiv.org/content/early/2016/08/01/062117
 
 
 This repository provides an analysis pipeline that reproduces the main results in the paper step-by-step.
