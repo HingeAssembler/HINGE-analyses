@@ -57,7 +57,7 @@ One may need to install matplotlib by installing the `python-matplotlib` package
 
 All of these packages can be alternatively installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed. In case the problem persists with the install from pip, we recommend directly downloading the source from pypi and compiling the `setup.py`.
 
-We also need [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
+We also need [ascp](http://downloads.asperasoft.com/en/downloads/50) and [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
 
 The results of Figure 2 in the paper can be reproduced using [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
 
