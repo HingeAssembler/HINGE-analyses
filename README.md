@@ -14,7 +14,7 @@ python
 python-pip
 ```
 
-We also need [Aspera connect](
+We also need [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
 
 ###Instructions to install
 
@@ -29,8 +29,24 @@ source setup.sh
 pip install -r requirements.txt 
 ```
 
+We require the following python packages. All of can be installed with `sudo pip install <package>`, with exception of forceatlas2, which should be downloaded and installed from [here](https://pypi.python.org/pypi/ForceAtlas2/1.0) for better performance.
 
-The results of Figure 2 paper can be reproduced in [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
+```
+numpy
+ujson
+cython
+forceatlas2
+networkx
+matplotlib
+biopython
+bcbio-gff
+bcbio-nextgen
+colormap
+easydev
+```
+
+
+The results of Figure 2 in the paper can be reproduced using [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
 
 
 ![results](results_appeal.png)
