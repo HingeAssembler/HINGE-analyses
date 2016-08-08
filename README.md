@@ -33,3 +33,4 @@ pip install -r requirements.txt
 The results of Figure 2 paper can be reproduced in [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
 
 
+![results](results_appeal.png)
