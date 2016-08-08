@@ -1,6 +1,12 @@
 # HINGE-analyses
 Analysis accompanying  "HINGE: Long-Read Assembly Achieves Optimal Repeat Resolution" http://biorxiv.org/content/early/2016/07/05/062117
 
+
+This repository provides an analysis pipeline that reproduces the main results in the paper step-by-step.
+
+
+###Requirements
+
 The following software needs to be installed
 
 ```
@@ -14,7 +20,6 @@ python
 python-pip
 ```
 
-We also need [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
 
 ###Instructions to install
 
@@ -45,6 +50,7 @@ colormap
 easydev
 ```
 
+We also need [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
 
 The results of Figure 2 in the paper can be reproduced using [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
 
