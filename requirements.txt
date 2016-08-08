@@ -5,10 +5,10 @@ cython
 matplotlib
 forceatlas2
 networkx
+jupyter
 biopython
 bcbio-gff
 pbcore
 bcbio-nextgen
 colormap
 easydev
-jupyter

@@ -20,6 +20,9 @@ python
 python-pip
 ```
 
+Most of these can be installed with apt-get. [Cmake 3.2](http://askubuntu.com/questions/610291/how-to-install-cmake-3-2-on-ubuntu-14-04) can be installed from this ppa on ubuntu: ` ppa:george-edison55/cmake-3.x` on ubuntu, and [gcc/g++-4.9](http://askubuntu.com/questions/428198/getting-installing-gcc-g-4-9-on-ubuntu) from `ppa:ubuntu-toolchain-r/test`.
+
+
 
 ###Instructions to install
 
@@ -48,11 +51,13 @@ The python packages installed by the last line are the following.
 -  [colormap](https://pypi.python.org/pypi/colormap)
 -  [easydev](https://pypi.python.org/pypi/easydev/0.9.25)
 -  [forceatlas2](https://pypi.python.org/pypi/ForceAtlas2/1.0)
+-  [jupyter](https://pypi.python.org/pypi/jupyter)
 
+One may need to install matplotlib by installing the `python-matplotlib` package. On ubuntu the command to do this would be `sudo apt-get build-dep python-matplotlib`
 
-All of these packages can be alternatively installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed.
+All of these packages can be alternatively installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed. In case the problem persists with the install from pip, we recommend directly downloading the source from pypi and compiling the `setup.py`.
 
-We also need [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
+We also need [ascp](http://downloads.asperasoft.com/en/downloads/50) and [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
 
 The results of Figure 2 in the paper can be reproduced using [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
 
