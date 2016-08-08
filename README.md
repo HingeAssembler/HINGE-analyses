@@ -14,6 +14,8 @@ python
 python-pip
 ```
 
+We also need [Aspera connect](
+
 ###Instructions to install
 
 ```
