@@ -51,7 +51,9 @@ The python packages installed by the last line are the following.
 -  [colormap](https://pypi.python.org/pypi/colormap)
 -  [easydev](https://pypi.python.org/pypi/easydev/0.9.25)
 -  [forceatlas2](https://pypi.python.org/pypi/ForceAtlas2/1.0)
+-  [jupyter](https://pypi.python.org/pypi/jupyter)
 
+One may need to install matplotlib by installing the `python-matplotlib` package. On ubuntu the command to do this would be `sudo apt-get build-dep python-matplotlib`
 
 All of these packages can be alternatively installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed.
 
