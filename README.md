@@ -20,7 +20,7 @@ python
 python-pip
 ```
 
-Most of these can be installed with apt-get. Cmake 3.2 can be installed from this ppa on ubuntu: `sudo add-apt-repository ppa:george-edison55/cmake-3.x` on ubuntu, and gcc-4.9 from `sudo add-apt-repository ppa:ubuntu-toolchain-r/test`.
+Most of these can be installed with apt-get. [Cmake 3.2](http://askubuntu.com/questions/610291/how-to-install-cmake-3-2-on-ubuntu-14-04) can be installed from this ppa on ubuntu: ` ppa:george-edison55/cmake-3.x` on ubuntu, and [gcc/g++-4.9](http://askubuntu.com/questions/428198/getting-installing-gcc-g-4-9-on-ubuntu) from `ppa:ubuntu-toolchain-r/test`.
 
 
 
