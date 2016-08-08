@@ -33,8 +33,8 @@ source setup.sh
 # Optionally you can create a python virtual environment and then install the requirements
 pip install -r requirements.txt 
 ```
-.
-The python packages installed by the last line are the following. All of can be installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled
+
+The python packages installed by the last line are the following. All of can be installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed.
 
 ```
 numpy
