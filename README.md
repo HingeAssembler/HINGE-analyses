@@ -7,7 +7,7 @@ This repository provides an analysis pipeline that reproduces the main results i
 
 ###Requirements
 
-The following software needs to be installed
+The following software needs to be installed (and can be installed using apt-get).
 
 ```
 build-essential
