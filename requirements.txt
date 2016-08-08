@@ -1,5 +1,4 @@
 numpy
-scipy
 ujson
 cython
 forceatlas2
