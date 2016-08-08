@@ -55,11 +55,16 @@ The python packages installed by the last line are the following.
 
 One may need to install matplotlib by installing the `python-matplotlib` package. On ubuntu the command to do this would be `sudo apt-get build-dep python-matplotlib`
 
-All of these packages can be alternatively installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed. In case the problem persists with the install from pip, we recommend directly downloading the source from pypi and compiling the `setup.py`.
+All of these packages can be alternatively installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed. One way to do that is by directly downloading the source from pypi and compiling the `setup.py`.
 
 We also need [ascp](http://downloads.asperasoft.com/en/downloads/50) and [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
 
+###Analysis notebook
+
 The results of Figure 2 in the paper can be reproduced using [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
+
+Instructions on how to run the jupyter notebook on your server are given in
+https://coderwall.com/p/ohk6cg/remote-access-to-ipython-notebooks-via-ssh (where ipython should be replaced with jupyter).
 
 
 ![results](results_appeal.png)
