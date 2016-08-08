@@ -36,19 +36,19 @@ pip install -r requirements.txt
 
 The python packages installed by the last line are the following. 
 
-```
-[numpy](https://pypi.python.org/pypi/numpy)
-[ujson](https://pypi.python.org/pypi/ujson)
-[cython](https://pypi.python.org/pypi/Cython/)
-[networkx](https://pypi.python.org/pypi/networkx/)
-[matplotlib](https://pypi.python.org/pypi/matplotlib/)
-[biopython](https://pypi.python.org/pypi/biopython/1.67)
-[bcbio-gff](https://pypi.python.org/pypi/bcbio-gff/0.6.2)
-[bcbio-nextgen](https://pypi.python.org/pypi/bcbio-nextgen/0.9.9)
-[colormap](https://pypi.python.org/pypi/colormap)
-[easydev](https://pypi.python.org/pypi/easydev/0.9.25)
-[forceatlas2](https://pypi.python.org/pypi/ForceAtlas2/1.0)
-```
+
+-  [numpy](https://pypi.python.org/pypi/numpy)
+-  [ujson](https://pypi.python.org/pypi/ujson)
+-  [cython](https://pypi.python.org/pypi/Cython/)
+-  [networkx](https://pypi.python.org/pypi/networkx/)
+-  [matplotlib](https://pypi.python.org/pypi/matplotlib/)
+-  [biopython](https://pypi.python.org/pypi/biopython/1.67)
+-  [bcbio-gff](https://pypi.python.org/pypi/bcbio-gff/0.6.2)
+-  [bcbio-nextgen](https://pypi.python.org/pypi/bcbio-nextgen/0.9.9)
+-  [colormap](https://pypi.python.org/pypi/colormap)
+-  [easydev](https://pypi.python.org/pypi/easydev/0.9.25)
+-  [forceatlas2](https://pypi.python.org/pypi/ForceAtlas2/1.0)
+
 
 All of these packages can be alternatively installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed.
 
