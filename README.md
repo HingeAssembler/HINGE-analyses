@@ -1,7 +1,7 @@
 # HINGE-analyses
 Analysis accompanying  "HINGE: Long-Read Assembly Achieves Optimal Repeat Resolution" http://biorxiv.org/content/early/2016/07/05/062117
 
-Stuff needed to be installed
+The following software needs to be installed
 
 ```
 build-essential
@@ -14,6 +14,9 @@ python
 python-pip
 ```
 
+We also need [Aspera connect](
+
+###Instructions to install
 
 ```
 git clone https://github.com/govinda-kamath/HINGE-analyses.git
@@ -26,4 +29,7 @@ source setup.sh
 pip install -r requirements.txt 
 ```
 
-The results of the paper can be reproduced in [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
+
+The results of Figure 2 paper can be reproduced in [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
+
+
