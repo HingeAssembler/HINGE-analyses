@@ -34,7 +34,7 @@ source setup.sh
 pip install -r requirements.txt 
 ```
 
-The python packages installed by the last line are the following. All of can be installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed.
+The python packages installed by the last line are the following. 
 
 ```
 numpy
@@ -49,6 +49,8 @@ bcbio-nextgen
 colormap
 easydev
 ```
+
+All of these packages can be alternatively installed with `sudo pip install <package>`. While installing forceatlas2, one should make sure that the code is cython compiled to get a 10x improvement in speed.
 
 We also need [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
 
