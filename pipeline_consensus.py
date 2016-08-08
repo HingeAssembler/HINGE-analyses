@@ -44,7 +44,7 @@ if st_point <= 4:
 if st_point <= 5:
     subprocess.call("rm -f draft.*.las",shell=True,cwd=base_path)
     mapper_cmd = "HPCmapper draft "+bact_id
-    mapper_shell_cmd = "csh -v draft_consensus.sh"
+    mapper_shell_cmd = "bash -v draft_consensus.sh"
     p = subprocess.call(mapper_cmd.split(),stdout=open(base_path+'draft_consensus.sh','w') , cwd=base_path)
     p2 = subprocess.check_output(mapper_shell_cmd.split(), cwd=base_path)
 

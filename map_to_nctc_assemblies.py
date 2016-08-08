@@ -31,7 +31,7 @@ if st_point <= 2:
     subprocess.call("rm -f *_hgap.*.las",shell=True,cwd=base_path)
     mapper_cmd = "HPCmapper "+hgap_db_name+" "+db_name
     print mapper_cmd
-    mapper_shell_cmd = "csh -v mapper_cmdf.sh"
+    mapper_shell_cmd = "bash -v mapper_cmdf.sh"
     p = subprocess.call(mapper_cmd.split(),stdout=open(base_path+'mapper_cmdf.sh','w') , cwd=base_path)
     p2 = subprocess.check_output(mapper_shell_cmd.split(), cwd=base_path)
     
