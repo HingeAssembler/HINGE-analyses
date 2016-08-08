@@ -2,7 +2,6 @@ numpy
 scipy
 ujson
 cython
-matplotlib
 forceatlas2
 networkx
 jupyter
@@ -12,3 +11,4 @@ pbcore
 bcbio-nextgen
 colormap
 easydev
+matplotlib
