@@ -1,12 +1,13 @@
 numpy
-scipy
 ujson
 cython
 forceatlas2
 networkx
-matplotlib
+jupyter
 biopython
 bcbio-gff
+pbcore
 bcbio-nextgen
 colormap
 easydev
+matplotlib

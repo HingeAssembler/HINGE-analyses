@@ -28,12 +28,12 @@ cmd = 'mkdir -p '+base_path+'log/'
 os.system(cmd)
 
 if st_point <= 1:
-	Reads_filter_cmd = "Reads_filter --db "+bact_name+" --las "+bact_name+".las -x "+bact_name+" --config ~/AwesomeAssembler/utils/nominal.ini"
+	Reads_filter_cmd = "Reads_filter --db "+bact_name+" --las "+bact_name+".las -x "+bact_name+" --config "+path_to_hinge+"utils/nominal.ini"
 	print Reads_filter_cmd
 	subprocess.check_output(Reads_filter_cmd,cwd=base_path, shell=True)
 
 if st_point <= 2:
-	hinging_cmd = "hinging --db "+bact_name+" --las "+bact_name+".las -x "+bact_name+" --config ~/AwesomeAssembler/utils/nominal.ini -o "+bact_name
+	hinging_cmd = "hinging --db "+bact_name+" --las "+bact_name+".las -x "+bact_name+" --config "+path_to_hinge+"utils/nominal.ini -o "+bact_name
 	print hinging_cmd
 	subprocess.check_output(hinging_cmd, cwd=base_path, shell=True)
 
