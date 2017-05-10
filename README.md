@@ -5,7 +5,7 @@ Analysis accompanying  "HINGE: Long-Read Assembly Achieves Optimal Repeat Resolu
 This repository provides an analysis pipeline that reproduces the main results in the paper step-by-step.
 
 
-###Requirements
+### Requirements
 
 The following software needs to be installed (and can be installed using apt-get).
 
@@ -24,7 +24,7 @@ Most of these can be installed with apt-get. [Cmake 3.2](http://askubuntu.com/qu
 
 
 
-###Instructions to install
+### Instructions to install
 
 ```
 git clone https://github.com/govinda-kamath/HINGE-analyses.git
@@ -59,7 +59,7 @@ All of these packages can be alternatively installed with `sudo pip install <pac
 
 We also need both [ascp](http://downloads.asperasoft.com/en/downloads/50) and [Aspera connect](http://downloads.asperasoft.com/en/downloads/8?list) to speed up the downloads.
 
-###Analysis notebook
+### Analysis notebook
 
 The results of Figure 2 in the paper can be reproduced using [this](https://github.com/govinda-kamath/HINGE-analyses/blob/master/HINGE_pipeline_NCTC.ipynb) notebook.
 
